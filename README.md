@@ -45,9 +45,23 @@ $ rou2 run mypkg listener
 (以下略)
 ```
 
-#launchファイル
-* launchファイル内のtalk_listen.launch.pyを実行することで
-##実行例
+# launchファイル
+* launchファイル内のtalk_listen.launch.pyを実行することで複数のノードを同時に立ち上げることができる．
+## 実行例
+
+```
+[INFO] [launch]: All log files can be found below /home/sakumahinata/.ros/log/2023-12-27-03-10-54-671057-DESKTOP-6Q66L93-631
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [633]
+[INFO] [listener-2]: process started with pid [635]
+[listener-2] [INFO] [1703614255.578763603] [listener]: Listen: 0
+[listener-2] [INFO] [1703614256.069406272] [listener]: Listen: 1
+[listener-2] [INFO] [1703614256.570036498] [listener]: Listen: 2
+[listener-2] [INFO] [1703614257.069966051] [listener]: Listen: 3
+[listener-2] [INFO] [1703614257.569943873] [listener]: Listen: 4
+[listener-2] [INFO] [1703614258.068709380] [listener]: Listen: 5
+(以下略)
+```
 
 ## 著作権・ライセンス
 * このソフトウェアパッケージは，[3条項BSDライセンス](https://opensource.org/license/bsd-3-clause/)の下，再頒布および使用が許可されます．
