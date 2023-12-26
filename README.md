@@ -2,7 +2,12 @@
 
 ![test](https://github.com/Hinatt0415/mypkg/actions/workflows/test.yml/badge.svg)
 
-本リポジトリはROS2のパッケージである．
+* 本リポジトリはROS2のパッケージである．
+
+# インストール方法
+```
+$ git clone https://github.com/Hinatt0415/robosys2023.git   
+```
 
 ## 著作権・ライセンス
 * このソフトウェアパッケージは，[3条項BSDライセンス](https://opensource.org/license/bsd-3-clause/)の下，再頒布および使用が許可されます．
