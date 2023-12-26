@@ -5,13 +5,13 @@
 * 本リポジトリはROS2のパッケージである．
 
 # インストール方法
-* ROS2未インストールの場合はインストールしてから以下のコマンドでワークスペースにクローン
+* ROS2未インストールの場合はインストールしてから以下のコマンドでワークスペースにクローンする．
 ```
 $ git clone https://github.com/Hinatt0415/robosys2023.git   
 ```
 
 # talker・listener
-* ノードを機能させるためにはターミナルが2つ必要
+* ノードを機能させるためにはターミナルが2つ必要．
 * talkerはcountupというトピックを通して Int16型のメッセージを送信する．
 * listenerはcountupからInt16型のメッセージを受信して出力する．
 
@@ -44,6 +44,10 @@ $ rou2 run mypkg listener
 [INFO] [1703611796.997554596] [listener]: Listen: 10
 (以下略)
 ```
+
+#launchファイル
+* launchファイル内のtalk_listen.launch.pyを実行することで
+##実行例
 
 ## 著作権・ライセンス
 * このソフトウェアパッケージは，[3条項BSDライセンス](https://opensource.org/license/bsd-3-clause/)の下，再頒布および使用が許可されます．
