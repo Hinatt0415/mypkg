@@ -27,6 +27,7 @@ $ ros2 run mypkg talker
 ```
 $ rou2 run mypkg listener
 ```
+出力結果は以下のようになる．
 
 * 端末2 (出力)
 ```
@@ -41,6 +42,7 @@ $ rou2 run mypkg listener
 [INFO] [1703611795.997992620] [listener]: Listen: 8
 [INFO] [1703611796.498351098] [listener]: Listen: 9
 [INFO] [1703611796.997554596] [listener]: Listen: 10
+(以下略)
 ```
 
 ## 著作権・ライセンス
