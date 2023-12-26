@@ -1,5 +1,6 @@
 # mypkg
 
+
 ![test](https://github.com/Hinatt0415/mypkg/actions/workflows/test.yml/badge.svg)
 
 * 本リポジトリはROS2のパッケージである．
@@ -15,6 +16,18 @@ $ git clone https://github.com/Hinatt0415/robosys2023.git
 * talkerはcountupというトピックを通して Int16型のメッセージを送信する．
 * listenerはcountupからInt16型のメッセージを受信して出力する．
 
+## 実行例
+例では端末1をtalker側，端末2をlistener側として実行する．
+
+* 端末1
+```
+$ ros2 run mypkg talker
+```
+
+* 端末2
+```
+$ rou2 run mypkg listener
+```
 
 ## 著作権・ライセンス
 * このソフトウェアパッケージは，[3条項BSDライセンス](https://opensource.org/license/bsd-3-clause/)の下，再頒布および使用が許可されます．
