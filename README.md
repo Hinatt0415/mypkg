@@ -64,7 +64,15 @@ $ ros2 launch mypkg talk_listen.launch.py
 (以下略)
 ```
 
-## 著作権・ライセンス
+# 必要なソフトウェア
+* python
+* Ubuntu20.04
+  * ROS2 humble
+
+# テスト環境
+* Ubuntu22.04
+
+# 著作権・ライセンス
 * このソフトウェアパッケージは，[3条項BSDライセンス](https://opensource.org/license/bsd-3-clause/)の下，再頒布および使用が許可されます．
 * このパッケージのコードは，上田隆一先生の[スライド](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
 * © 2023 Hinata Sakuma
