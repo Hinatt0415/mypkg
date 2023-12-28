@@ -3,14 +3,9 @@
 ![test](https://github.com/Hinatt0415/mypkg/actions/workflows/test.yml/badge.svg)
 
 * 本リポジトリはROS2のパッケージである．
+* 0.5秒間隔で1ずつ数字をカウントアップすることができる．
 
-# インストール方法
-* ROS2未インストールの場合はインストールしてから以下のコマンドでワークスペースにクローンする．
-```
-$ git clone https://github.com/Hinatt0415/robosys2023.git   
-```
-
-# talker・listener
+# 
 * ノードを機能させるためにはターミナルが2つ必要．
 * talkerはcountupというトピックを通して Int16型のメッセージを送信する．
 * listenerはcountupからInt16型のメッセージを受信して出力する．
