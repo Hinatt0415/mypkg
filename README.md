@@ -3,7 +3,7 @@
 ![test](https://github.com/Hinatt0415/mypkg/actions/workflows/test.yml/badge.svg)
 
 * 本リポジトリはROS2のパッケージである．
-* talkerが数字をカウントアップし，トピックを通してInt16型のメッセージを送信し，listenerがそれを受け取って表示させるものである．
+* talkerが数字をカウントアップし，それをトピックを通してInt16型のメッセージを送信し，listenerがそれを受け取って表示させるものである．
 
 # 各ノードとトピック 
 * ノードを機能させるためにはターミナルが2つ必要．
