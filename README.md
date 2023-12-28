@@ -3,7 +3,7 @@
 ![test](https://github.com/Hinatt0415/mypkg/actions/workflows/test.yml/badge.svg)
 
 * 本リポジトリはROS2のパッケージである．
-* 0.5秒間隔で1ずつ数字をカウントアップすることができる．
+* talkerが数字をカウントアップし，トピックを通してInt16型のメッセージを送信し，listenerがそれを受け取って表示させるものである．
 
 # 
 * ノードを機能させるためにはターミナルが2つ必要．
